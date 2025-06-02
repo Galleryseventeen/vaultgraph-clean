@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive public knowledge graph from Obsidian vault",
   "main": "index.html",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,9 +20,5 @@
     "@vitejs/plugin-react": "^4.0.0",
     "vite": "^5.2.0"
   }
-}
-
-{
-  "homepage": "."
 }
 
