@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.modal {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  background: white;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 1rem;
+  z-index: 100;
+}
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+.searchbar {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background: white;
+  border: 1px solid #aaa;
+  padding: 1rem;
+  z-index: 1000;
+}
