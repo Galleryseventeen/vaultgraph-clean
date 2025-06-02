@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import ForceGraph2D from 'react-force-graph'
+import { ForceGraph2D } from 'react-force-graph'
 
 export default function GraphViewer({ data, onNodeClick }) {
   const ref = useRef()
