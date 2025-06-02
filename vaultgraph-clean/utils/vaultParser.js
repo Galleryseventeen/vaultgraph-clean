@@ -1,5 +1,5 @@
 // utils/vaultParser.js
-export async function parseVault() {
+export const parseVault = async () => {
   try {
     const response = await fetch('/vault/');
     if (!response.ok) {
