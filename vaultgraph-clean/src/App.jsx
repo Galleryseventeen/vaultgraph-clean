@@ -1,8 +1,10 @@
 function App() {
-  try {
-    // Replace with real content step-by-step
-    return <YourRealComponent />;
-  } catch (err) {
-    return <pre>{err.message}</pre>;
-  }
+  return (
+    <div>
+      <h1>App Loaded</h1>
+      {/* comment out actual app for now */}
+      {/* <GraphViewer /> */}
+    </div>
+  );
 }
+
