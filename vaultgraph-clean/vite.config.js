@@ -7,3 +7,4 @@ export default defineConfig({
   base: '/' // required for Vercel so paths resolve from domain root
 })
 
+console.log("Vite config loaded");
