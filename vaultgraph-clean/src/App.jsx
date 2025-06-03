@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GraphViewer from './components/GraphViewer';
-import { parseVault } from '../utils/vaultParser.js';
+import { parseVault } from './utils/vaultParser.js';
 
 function App() {
   const [data, setData] = useState({ nodes: [], links: [] });
