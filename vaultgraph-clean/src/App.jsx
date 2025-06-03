@@ -1,10 +1,4 @@
-function App() {
-  return (
-    <div>
-      <h1>App Loaded</h1>
-      {/* comment out actual app for now */}
-      {/* <GraphViewer /> */}
-    </div>
-  );
+export default function App() {
+  return <h1>Hello from clean App</h1>;
 }
 
