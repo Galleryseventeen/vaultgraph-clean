@@ -1,5 +1,8 @@
 function App() {
-  return <h1>Hello World</h1> // Just for testing
+  try {
+    // Replace with real content step-by-step
+    return <YourRealComponent />;
+  } catch (err) {
+    return <pre>{err.message}</pre>;
+  }
 }
-export default App
-
